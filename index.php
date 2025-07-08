@@ -18,6 +18,7 @@ session_start();
                 <li><a href="signup.php">Sign Up</a></li>
                 <li><a href="tel:+91-9523315572">Call me</a></li>
                 <li><a href="mailto:harshgupta0704@gmail.com">E-mail</a></li>
+                 <li><a href="booking_history.php">Booking History</a></li>
                 <?php if(isset($_SESSION['user_name'])): ?>
                     <li><a href="#" style="background: none; color: #fff; font-weight: bold; border-radius: 4px; padding: 8px 16px; cursor: default; text-decoration: none;">Welcome, <?php echo htmlspecialchars($_SESSION['user_name']); ?></a></li>
                     <li><a href="logout.php" style="background: none; color: #fff; font-weight: bold; border-radius: 4px; padding: 8px 16px; text-decoration: none;">Logout</a></li>
@@ -31,7 +32,7 @@ session_start();
             <img style="float:left;margin-top:-10px;" src="college.jpg" alt="College building">
             <h1>Welcome to Tathagat Boys' Hostel</h1>
             <p>Comfortable, affordable, and secure living experience.</p>
-            <a href="room.html" class="btn" id="viewRoomsBtn">View Available Rooms</a>
+            <a href="room.php" class="btn" id="viewRoomsBtn">View Available Rooms</a>
         </div>
     </section>
 

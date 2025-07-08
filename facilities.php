@@ -18,6 +18,7 @@
                 <li><a href="signup.php">Sign Up</a></li>
                 <li><a href="tel:+91-9523315572">Call me</a></li>
                 <li><a href="mailto:harshgupta0704@gmail.com">E-mail</a></li>
+                <li><a href="booking_history.php">Booking History</a></li>
                 <?php if(isset($_SESSION['user_name'])): ?>
                     <li><a href="#" style="background: none; color: #fff; font-weight: bold; border-radius: 4px; padding: 8px 16px; cursor: default; text-decoration: none;">Welcome, <?php echo htmlspecialchars($_SESSION['user_name']); ?></a></li>
                     <li><a href="logout.php" style="background: none; color: #fff; font-weight: bold; border-radius: 4px; padding: 8px 16px; text-decoration: none;">Logout</a></li>
@@ -39,7 +40,7 @@
 		<h3>24 Hr security</h3>
 		</div>
 		<div>
-		<img src="Laundry.jpeg" alt="Laundry">
+		<img src="laundry.jpeg" alt="Laundry">
 		<h3>Laundry</h3>
 		</div>
 	
